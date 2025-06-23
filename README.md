@@ -1,6 +1,6 @@
 # Trabajo Práctico 2 - Aprendizaje Automático II
 
-Autores: Herrera M., Nardi G., Zorzolo J.   
+Autores: Herrera Morena, Nardi Gianella Belén, Zorzolo Rubio Juana   
 Carrera: Tecnicatura Universitaria en Inteligencia Artificial - FCEIA UNR  
 Año: 2025
 
