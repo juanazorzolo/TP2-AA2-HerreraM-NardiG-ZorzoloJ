@@ -53,6 +53,6 @@ class NNAgent(Agent):
         else:
             # Convertimos a array para la red
             state_array = np.array(discrete_state, dtype=np.float32).reshape(1, -1)
-            q_values = self.model.predict(state_array, verbose=0)[0]
+            q_values = self.model(state_array, training=False).numpy()[0] # q_values = self.model.predict(state_array, verbose=0)[0]
             action_index = np.argmax(q_values)
             return self.actions[action_index]
